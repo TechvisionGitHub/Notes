@@ -1,0 +1,84 @@
+node -v
+npm -v
+ng -v
+npm config set registry http://registry.npmjs.org/
+npm set registry http://registry.npmjs.org/
+
+npm install -g @angular/cli
+npm install -g @angular/cli@14.2.3
+
+ng new tech-vision-app
+cd tech-vision-app
+
+==Running server
+
+ng serve
+
+==== open code in VS Code  --- execute cmd
+code .
+
+===Create Login component  --- execute
+ng g c user-login
+
+==== VS CODE component create issue --- execute in windows powershell
+Set-ExecutionPolicy –ExecutionPolicy Unrestricted
+
+==== Create Login class ===
+ng g class user
+
+==== Create Login service ===
+ng g s loginUser
+
+https://www.youtube.com/watch?v=ga5Oz-_5ltU
+
+https://www.youtube.com/watch?v=_rMAnZIcRiU&t=2052s
+
+===Links ==
+https://www.youtube.com/watch?v=r4VfwBMx-H0
+
+[(ngModel))]="user.userName"
+[(ngModel))]="user.password"
+
+==== Routing 
+
+https://www.youtube.com/watch?v=kaHSVI4kDTc
+https://www.youtube.com/watch?v=ibn2yAomxp8
+
+
+===============================Flow=============================
+user-login.component.css
+user-login.component.html
+user-login.component.spec.ts
+user-login.component.ts
+ ####Object
+ user.ts   Created
+ user.spec.ts  Default
+ ####Service
+ loginuser.service.ts  Created
+ loginuser.service.spec.ts
+ 
+ 
+===Gmail
+ techvisionrepos@gmail.com
+ tech@1234
+===GitHub 
+ TechvisionGitHub
+ tech@1234Git
+ https://github.com/TechvisionGitHub/UI
+ 
+ git remote add origin https://github.com/TechvisionGitHub/UI.git
+git branch -M master
+git config --global user.email "techvisionrepos@gmail.com"
+git config --global user.name "TechvisionGitHub"
+git commit -m "initial commit"
+git push -u origin master
+ 
+ Rename
+ 
+ git branch -m master
+ git branch -m main master
+
+
+git remote add origin https://github.com/TechvisionGitHub/UI.git
+git branch -M main
+git push -u origin main
