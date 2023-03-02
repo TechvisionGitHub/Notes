@@ -61,24 +61,3 @@ user-login.component.ts
 ===Gmail
  techvisionrepos@gmail.com
  tech@1234
-===GitHub 
- TechvisionGitHub
- tech@1234Git
- https://github.com/TechvisionGitHub/UI
- 
- git remote add origin https://github.com/TechvisionGitHub/UI.git
-git branch -M master
-git config --global user.email "techvisionrepos@gmail.com"
-git config --global user.name "TechvisionGitHub"
-git commit -m "initial commit"
-git push -u origin master
- 
- Rename
- 
- git branch -m master
- git branch -m main master
-
-
-git remote add origin https://github.com/TechvisionGitHub/UI.git
-git branch -M main
-git push -u origin main
